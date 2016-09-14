@@ -1,4 +1,4 @@
 all:*
-	g++ *.cpp
-	./a.out
+	g++ -o genRangeList *.cpp
+	./genRangeList
 
