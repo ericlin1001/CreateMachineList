@@ -4,7 +4,7 @@
 #include<string.h>
 using namespace std;
 void printw(int i,int width){
-	if(i<10)cout<<"0";
+	//if(i<10)cout<<"0";
 	cout<<i;
 }
 int main(int argc,char **argv){
@@ -26,7 +26,8 @@ int main(int argc,char **argv){
 			"Example: \n"
 			"	genRangeList 1 13\n"
 			"	genRangeList 50 61 chen-510 :4\n"
-			"	genRangeList 50 54 chen-510 :4|tee machinefile\n";
+			"	genRangeList 50 54 chen-510 :4|tee machinefile\n"
+			"Author: Eric Lin(463222898@qq.com)\n";
 		return 0;	
 	}
 	//cout<<"#Generate range:"<<from<<","<<to<<endl;
